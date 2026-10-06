@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="100%" height="100%" style="background-color: #ffffff; font-family: system-ui, -apple-system, sans-serif;">
+  <!-- Title -->
+  <text x="500" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#1e293b">Distribution Analysis of Core Numerical Features</text>
+  <text x="500" y="65" text-anchor="middle" font-size="14" fill="#64748b">Post-Cleaning Histograms &amp; Frequency Density Plots</text>
+
+  <!-- Panel 1: Sales Distribution -->
+  <g transform="translate(50, 100)">
+    <rect width="420" height="250" fill="#f8fafc" stroke="#e2e8f0" rx="8"/>
+    <text x="210" y="30" text-anchor="middle" font-size="15" font-weight="bold" fill="#0f172a">Sales Distribution ($)</text>
+    <!-- Axes -->
+    <line x1="60" y1="200" x2="380" y2="200" stroke="#94a3b8" stroke-width="1.5"/>
+    <line x1="60" y1="50" x2="60" y2="200" stroke="#94a3b8" stroke-width="1.5"/>
+    <!-- Bars -->
+    <rect x="70" y="160" width="25" height="40" fill="#2b5c8f" opacity="0.85"/>
+    <rect x="100" y="110" width="25" height="90" fill="#2b5c8f" opacity="0.85"/>
+    <rect x="130" y="80" width="25" height="120" fill="#2b5c8f" opacity="0.85"/>
+    <rect x="160" y="95" width="25" height="105" fill="#2b5c8f" opacity="0.85"/>
+    <rect x="190" y="130" width="25" height="70" fill="#2b5c8f" opacity="0.85"/>
+    <rect x="220" y="150" width="25" height="50" fill="#2b5c8f" opacity="0.85"/>
+    <rect x="250" y="165" width="25" height="35" fill="#2b5c8f" opacity="0.85"/>
+    <rect x="280" y="175" width="25" height="25" fill="#2b5c8f" opacity="0.85"/>
+    <rect x="310" y="180" width="25" height="20" fill="#2b5c8f" opacity="0.85"/>
+    <rect x="340" y="188" width="25" height="12" fill="#2b5c8f" opacity="0.85"/>
+    <!-- KDE Curve -->
+    <path d="M 65 175 Q 130 65 170 90 T 250 160 T 365 190" fill="none" stroke="#1d4ed8" stroke-width="2.5"/>
+    <!-- Labels -->
+    <text x="210" y="230" text-anchor="middle" font-size="12" fill="#475569">Sales Value ($)</text>
+    <text x="25" y="125" text-anchor="middle" font-size="12" fill="#475569" transform="rotate(-90 25 125)">Frequency</text>
+  </g>
+
+  <!-- Panel 2: Profit Distribution -->
+  <g transform="translate(530, 100)">
+    <rect width="420" height="250" fill="#f8fafc" stroke="#e2e8f0" rx="8"/>
+    <text x="210" y="30" text-anchor="middle" font-size="15" font-weight="bold" fill="#0f172a">Profit Distribution ($)</text>
+    <line x1="60" y1="200" x2="380" y2="200" stroke="#94a3b8" stroke-width="1.5"/>
+    <line x1="60" y1="50" x2="60" y2="200" stroke="#94a3b8" stroke-width="1.5"/>
+    <!-- Bars -->
+    <rect x="80" y="185" width="25" height="15" fill="#27ae60" opacity="0.85"/>
+    <rect x="110" y="170" width="25" height="30" fill="#27ae60" opacity="0.85"/>
+    <rect x="140" y="130" width="25" height="70" fill="#27ae60" opacity="0.85"/>
+    <rect x="170" y="65" width="25" height="135" fill="#27ae60" opacity="0.85"/>
+    <rect x="200" y="85" width="25" height="115" fill="#27ae60" opacity="0.85"/>
+    <rect x="230" y="120" width="25" height="80" fill="#27ae60" opacity="0.85"/>
+    <rect x="260" y="155" width="25" height="45" fill="#27ae60" opacity="0.85"/>
+    <rect x="290" y="175" width="25" height="25" fill="#27ae60" opacity="0.85"/>
+    <rect x="320" y="185" width="25" height="15" fill="#27ae60" opacity="0.85"/>
+    <!-- KDE Curve -->
+    <path d="M 75 190 Q 170 55 200 80 T 310 180 T 350 195" fill="none" stroke="#15803d" stroke-width="2.5"/>
+    <text x="210" y="230" text-anchor="middle" font-size="12" fill="#475569">Profit ($)</text>
+    <text x="25" y="125" text-anchor="middle" font-size="12" fill="#475569" transform="rotate(-90 25 125)">Frequency</text>
+  </g>
+
+  <!-- Panel 3: Customer Age Distribution -->
+  <g transform="translate(50, 390)">
+    <rect width="420" height="250" fill="#f8fafc" stroke="#e2e8f0" rx="8"/>
+    <text x="210" y="30" text-anchor="middle" font-size="15" font-weight="bold" fill="#0f172a">Customer Age Distribution</text>
+    <line x1="60" y1="200" x2="380" y2="200" stroke="#94a3b8" stroke-width="1.5"/>
+    <line x1="60" y1="50" x2="60" y2="200" stroke="#94a3b8" stroke-width="1.5"/>
+    <rect x="75" y="160" width="25" height="40" fill="#e67e22" opacity="0.85"/>
+    <rect x="105" y="115" width="25" height="85" fill="#e67e22" opacity="0.85"/>
+    <rect x="135" y="80" width="25" height="120" fill="#e67e22" opacity="0.85"/>
+    <rect x="165" y="60" width="25" height="140" fill="#e67e22" opacity="0.85"/>
+    <rect x="195" y="75" width="25" height="125" fill="#e67e22" opacity="0.85"/>
+    <rect x="225" y="105" width="25" height="95" fill="#e67e22" opacity="0.85"/>
+    <rect x="255" y="140" width="25" height="60" fill="#e67e22" opacity="0.85"/>
+    <rect x="285" y="170" width="25" height="30" fill="#e67e22" opacity="0.85"/>
+    <rect x="315" y="185" width="25" height="15" fill="#e67e22" opacity="0.85"/>
+    <path d="M 70 170 Q 165 50 195 70 T 300 175 T 345 195" fill="none" stroke="#c2410c" stroke-width="2.5"/>
+    <text x="210" y="230" text-anchor="middle" font-size="12" fill="#475569">Age (Years)</text>
+    <text x="25" y="125" text-anchor="middle" font-size="12" fill="#475569" transform="rotate(-90 25 125)">Frequency</text>
+  </g>
+
+  <!-- Panel 4: Shipping Cost Distribution -->
+  <g transform="translate(530, 390)">
+    <rect width="420" height="250" fill="#f8fafc" stroke="#e2e8f0" rx="8"/>
+    <text x="210" y="30" text-anchor="middle" font-size="15" font-weight="bold" fill="#0f172a">Shipping Cost Distribution ($)</text>
+    <line x1="60" y1="200" x2="380" y2="200" stroke="#94a3b8" stroke-width="1.5"/>
+    <line x1="60" y1="50" x2="60" y2="200" stroke="#94a3b8" stroke-width="1.5"/>
+    <rect x="80" y="70" width="30" height="130" fill="#8e44ad" opacity="0.85"/>
+    <rect x="115" y="85" width="30" height="115" fill="#8e44ad" opacity="0.85"/>
+    <rect x="150" y="105" width="30" height="95" fill="#8e44ad" opacity="0.85"/>
+    <rect x="185" y="120" width="30" height="80" fill="#8e44ad" opacity="0.85"/>
+    <rect x="220" y="140" width="30" height="60" fill="#8e44ad" opacity="0.85"/>
+    <rect x="255" y="160" width="30" height="40" fill="#8e44ad" opacity="0.85"/>
+    <rect x="290" y="175" width="30" height="25" fill="#8e44ad" opacity="0.85"/>
+    <rect x="325" y="185" width="30" height="15" fill="#8e44ad" opacity="0.85"/>
+    <path d="M 75 75 Q 120 80 180 120 T 310 180 T 360 195" fill="none" stroke="#6b21a8" stroke-width="2.5"/>
+    <text x="210" y="230" text-anchor="middle" font-size="12" fill="#475569">Shipping Cost ($)</text>
+    <text x="25" y="125" text-anchor="middle" font-size="12" fill="#475569" transform="rotate(-90 25 125)">Frequency</text>
+  </g>
+</svg>
